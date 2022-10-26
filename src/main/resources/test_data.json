@@ -1,0 +1,119 @@
+{
+    "type": "struct",
+    "fields": [
+        {
+            "name": "_hoodie_commit_time",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "_hoodie_commit_seqno",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "_hoodie_record_key",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "_hoodie_partition_path",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "_hoodie_file_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "id",
+            "type": "integer",
+            "nullable": false,
+            "metadata": {}
+        },
+        {
+            "name": "create_uid",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "create_date",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "write_uid",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "write_date",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "manufacture_year_moved0",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "model_id",
+            "type": "integer",
+            "nullable": false,
+            "metadata": {}
+        },
+        {
+            "name": "car_unique_number",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "vin",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "engine_number",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "manufacture_year",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "__deleted",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "ts",
+            "type": "string",
+            "nullable": false,
+            "metadata": {}
+        }
+    ]
+}

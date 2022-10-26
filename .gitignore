@@ -92,3 +92,8 @@ null/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# vs code
+.bloop
+.metals
+.vscode

@@ -137,7 +137,7 @@ abstract class Setl(val configLoader: ConfigLoader) extends HasRegistry[Pipeline
    * @tparam CN type of the connector
    * @return the registered connector
    */
-  def getConnector[CN <: Connector](connectorId: String): CN = {
+  def getConnector[CN <: Connector](conncetorId: String): CN = {
     setConnector(connectorId)
     externalInputRegistry.get(connectorIdOf(connectorId)).getPayload.asInstanceOf[CN]
   }
