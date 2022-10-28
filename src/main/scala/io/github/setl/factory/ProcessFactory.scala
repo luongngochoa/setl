@@ -21,13 +21,13 @@ class ProcessFactory extends Factory[DataFrame] with HasSparkSession {
 
   override def read(): ProcessFactory.this.type = {
       testObject = hudiReaderConnector.read()
-
+      testObject.show(5, false)
     this
   }
   
   override def process(): ProcessFactory.this.type = {
     result = testObject
-
+    result.show(5, false)
     this
   }
 
